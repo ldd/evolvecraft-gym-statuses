@@ -1,0 +1,268 @@
+{
+    "regions": {
+        "Kanto": {
+            "cities": [
+                {
+                    "Pewter": {
+                        "leaders": [
+                            "Motocross233",
+                            "justldd",
+                            "mortalcombat23"
+                        ],
+                        "format": "3v3",
+                        "levelCap": "33"
+                    }
+                },
+                {
+                    "Cerulean": {
+                        "leaders": [
+                            "ryanmc1000",
+                            "IronDragon9855",
+                            "BladeCraft45",
+                            "manbooo"
+                        ],
+                        "format": "6v6",
+                        "levelCap": "36"
+                    }
+                },
+                {
+                    "Vermillion": {
+                        "leaders": [
+                            "DarkraiSnivy",
+                            "callumlfc10"
+                        ],
+                        "format": "3v3",
+                        "levelCap": "33"
+                    }
+                },
+                {
+                    "Celadon": {
+                        "leaders": [
+                            "Kingdra_EX",
+                            "Im_NooBly",
+                            "kourosh2"
+                        ],
+                        "format": "3v3",
+                        "levelCap": "33"
+                    }
+                },
+                {
+                    "Fuchsia": {
+                        "leaders": [
+                            "CaptinMcPiggie",
+                            "GoatSwag0723"
+                        ],
+                        "format": "3v3",
+                        "levelCap": "33"
+                    }
+                },
+                {
+                    "Saffron": {
+                        "leaders": [
+                            "MCLikeANinja",
+                            "Secretlaser627"
+                        ],
+                        "format": "3v3",
+                        "levelCap": "33"
+                    }
+                },
+                {
+                    "Cinnabar": {
+                        "leaders": [
+                            "thegamerguru97",
+                            "96mudkip",
+                            "BEijke"
+                        ],
+                        "format": "3v3",
+                        "levelCap": "33"
+                    }
+                },
+                {
+                    "Viridian": {
+                        "leaders": [
+                            "creeperkiller"
+                        ],
+                        "format": "3v3",
+                        "levelCap": "33"
+                    }
+                }
+            ]
+        },
+        "Johto": {
+            "cities": [
+                {
+                    "Violet": {
+                        "leaders": [
+                            "Cindryx",
+                            "Yoshisninja",
+                            "ProspectApex",
+                            "CrassKal"
+                        ],
+                        "format": "3v3",
+                        "levelCap": "33"
+                    }
+                },
+                {
+                    "Azalea": {
+                        "leaders": [
+                            "Dopey_Bullocks",
+                            "Sir_Ralph",
+                            "_JustNiek"
+                        ],
+                        "format": "3v3",
+                        "levelCap": "33"
+                    }
+                },
+                {
+                    "Goldenrod": {
+                        "leaders": [
+                            "DJ_M83rt0"
+                        ],
+                        "format": "3v3",
+                        "levelCap": "33"
+                    }
+                },
+                {
+                    "Ecruteak": {
+                        "leaders": [
+                            "bloxmiester",
+                            "Killamarshall",
+                            "Ghostlord_Bas012"
+                        ],
+                        "format": "3v3",
+                        "levelCap": "33"
+                    }
+                },
+                {
+                    "Cianwood": {
+                        "leaders": [
+                            "Ghostlord_Tim"
+                        ],
+                        "format": "3v3",
+                        "levelCap": "33"
+                    }
+                },
+                {
+                    "Olivine": {
+                        "leaders": [
+                            "Jordan",
+                            "KCCreeper"
+                        ],
+                        "format": "3v3",
+                        "levelCap": "33"
+                    }
+                },
+                {
+                    "Mahagony": {
+                        "leaders": [
+                            "iKrampus",
+                            "mortalcombat23"
+                        ],
+                        "format": "3v3",
+                        "levelCap": "33"
+                    }
+                },
+                {
+                    "Blackthorn": {
+                        "leaders": [
+                            "masterchief1235",
+                            "jessejtj",
+                            "haloman977"
+                        ],
+                        "format": "3v3",
+                        "levelCap": "33"
+                    }
+                }
+            ]
+        },
+        "Hoenn": {
+            "cities": [
+                {
+                    "Rustboro": {
+                        "leaders": [
+                            "Skelepup",
+                            "MrTr4gic",
+                            "Mawacate",
+                            "NothingPro"
+                        ],
+                        "format": "3v3",
+                        "levelCap": "33"
+                    }
+                },
+                {
+                    "Dewford": {
+                        "leaders": [
+                            "jack_epic",
+                            "wayloresie"
+                        ],
+                        "format": "3v3",
+                        "levelCap": "33"
+                    }
+                },
+                {
+                    "Mauville": {
+                        "leaders": [
+                            "Raichulove",
+                            "Phiase",
+                            "the_pineapple_10",
+                            "fro425"
+                        ],
+                        "format": "3v3",
+                        "levelCap": "33"
+                    }
+                },
+                {
+                    "Lavaridge": {
+                        "leaders": [
+                            "TheReaper313",
+                            "Bfish071594",
+                            "HoppingFox",
+                            "Jordan"
+                        ],
+                        "format": "3v3",
+                        "levelCap": "33"
+                    }
+                },
+                {
+                    "Petalburg": {
+                        "leaders": [
+                            "Noahbuddy78",
+                            "SonicBoomVx"
+                        ],
+                        "format": "3v3",
+                        "levelCap": "33"
+                    }
+                },
+                {
+                    "Fortree": {
+                        "leaders": [
+                            "megafire13",
+                            "Connorpottermore"
+                        ],
+                        "format": "3v3",
+                        "levelCap": "33"
+                    }
+                },
+                {
+                    "Mossdeep": {
+                        "leaders": [
+                            "Mjcaboose18",
+                            "Jordan"
+                        ],
+                        "format": "3v3",
+                        "levelCap": "33"
+                    }
+                },
+                {
+                    "Sootopolis": {
+                        "leaders": [
+                            "Friskeest"
+                        ],
+                        "format": "3v3",
+                        "levelCap": "33"
+                    }
+                }
+            ]
+        }
+    }
+}
