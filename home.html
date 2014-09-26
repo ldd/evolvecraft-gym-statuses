@@ -298,19 +298,14 @@ var data = {
 				
 				//we check
 				if (cities.hasOwnProperty(nameString)){
-					 var city = "#" + cities[nameString];
 
-          //AWFULLY inefficient way to do it
-					// $(divString).html( cities[nameString] + ' Gym :' + nameImage);
+          for (var i = 0; i < cities[nameString].length; i++) {
+           var city = "#" + cities[nameString][i];
            var cityInfo=nameImage; 
 
-           // if ($(city).html().indexOf(nameString) == -1){
             $(city).append(cityInfo);
-           // }
-
-           //if someone signed off, 
-
-					$(city).show();
+            $(city).show();
+          };
 				}
 
 				
@@ -339,7 +334,13 @@ ajaxGetNames();
 
 					for (i =0 ; i < data.regions[regionName].cities[n][key].leaders.length; i++){
 						var name = data.regions[regionName].cities[n][key].leaders[i];
-						cities[name] = key;
+
+            if (cities[name] == undefined){
+              cities[name] = [key];
+            }
+            else{
+              cities[name].push(key);
+            }
 					}
 				}
 			}
