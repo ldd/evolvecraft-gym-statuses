@@ -10,6 +10,7 @@
       <div class="container">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">Home</a>
+          <!-- <a class="navbar-brand" href="effectiveness.htm">Effectiveness calculator</a> -->
         </div>
       </div>
     </div>
@@ -47,7 +48,8 @@ var data = {
              	{
                     "Cerulean": {
                         "leaders": [
-                            "manbooo"
+                            "manbooo",
+                            "IronDragon9855"
                         ]
                     }
                 },
@@ -56,10 +58,57 @@ var data = {
                     "Vermillion": {
                         "leaders": [
                             "DarkraiSnivy",
-                            "callumlfc10"
+                            "callumlfc10",
+                            "BloodPrinceXV"
                         ]
                     }
-                }
+                },
+
+              {
+                    "Celadon": {
+                        "leaders": [
+                            "Kingdra_EX",
+                            "jadenz123",
+                            "Im_NooBly",
+                            "kourosh2"
+                        ]
+                    }
+                },
+              {
+                    "Fuchsia": {
+                        "leaders": [
+                            "CaptinMcPiggie",
+                            "GoatSwag0723"
+                        ]
+                    }
+                },
+              {
+                    "Saffron": {
+                        "leaders": [
+                            "MCLikeANinja",
+                            "Secretlaser627"
+                        ]
+                    }
+                },
+              {
+                    "Cinnabar": {
+                        "leaders": [
+                            "UGxUnholySage",
+                            "kirby123_",
+                            "96mudkip",
+                            "thegamerguru97",
+                            "BEijke"
+                        ]
+                    }
+                },
+              {
+                    "Viridian": {
+                        "leaders": [
+                            "kirpi2011"
+                        ]
+                    }
+                },
+
             ]
         },
         "Johto": {
@@ -74,26 +123,168 @@ var data = {
                 },
              	
              	{
-                    "azalea": {
+                    "Azalea": {
                         "leaders": [
                             "Sir_ralph",
                             "_JustNiek"
                         ]
                     }
                 },
+              {
+                    "Goldenrod": {
+                        "leaders": [
+                            "DJ_M83rt0",
+                            "Sparty91103"
+                        ]
+                    }
+                },                
+              {
+                    "Ecruteak": {
+                        "leaders": [
+                            "Osciak",
+                            "bloxmiester",
+                            "Killamarshall"
+                        ]
+                    }
+                },
+                {
+                    "Cianwood": {
+                        "leaders": [
+                            "MuuuhCow",
+                            "Ghostlord_tim"
+                        ]
+                    }
+                },
+              
+              {
+                    "Olivine": {
+                        "leaders": [
+                            "dukejohnston",
+                            "PapoNYC",
+                            "Ghostlord_Bas012",
+                            "mortalcombat23"
+                        ]
+                    }
+                },
+              {
+                    "Mahagony": {
+                        "leaders": [
+                            "Vexscream",
+                            "iKrampus",
+                            "mortalcombat23"
+                        ]
+                    }
+                },                
+              {
+                    "Blackthorn": {
+                        "leaders": [
+                            "masterchief1235",
+                            "jessejtj",
+                            "haloman977"
+                        ]
+                    }
+                }
             ]
         },
 
+        "Hoenn": {
+            "cities": [
+                {
+                    "Rustboro": {
+                        "leaders": [
+                            "Skelepup",
+                            "DragonDescendant",
+                            "MrTr4gic",
+                            "Mawacate",
+                            "NothingPro"
+                        ]
+                    }
+                },
+              
+              {
+                    "Dewford": {
+                        "leaders": [
+                            "TinyTom99",
+                            "Killa178293",
+                            "jack_epic",
+                            "wayloresie"
+                        ]
+                    }
+                },
+
+              {
+                    "Mauville": {
+                        "leaders": [
+                            "Phiase",
+                            "the_pineapple_10",
+                            "Raichulove",
+                            "fro425",
+                            "TheReaper313"
+                        ]
+                    }
+                },
+
+              {
+                    "Lavaridge": {
+                        "leaders": [
+                            "jayrock102",
+                            "thewinner123",
+                            "TheReaper313",
+                            "Bfish071594",
+                            "HoppingFox",
+                            "mortalcombat23"
+                        ]
+                    }
+                },
+              {
+                    "Petalburg": {
+                        "leaders": [
+                            "OP_HIPPO",
+                            "Noahbuddy78",
+                            "SonicBoomVx"
+                        ]
+                    }
+                },
+              {
+                    "Fortree": {
+                        "leaders": [
+                            "okanerorules",
+                            "Squirrellz1",
+                            "megafire13",
+                            "Connorpottermore"
+                        ]
+                    }
+                },
+              {
+                    "Mossdeep": {
+                        "leaders": [
+                            "Keaton_Ramey",
+                            "mortalcombat23"
+                        ]
+                    }
+                },
+              {
+                    "Sootopolis": {
+                        "leaders": [
+                            "killer2133",
+                            "Friskeest"
+                        ]
+                    }
+                },
+
+            ]
+        }
     }
 };
 
 
 
-    initializeCities();
 	var url = "http://www.evolvecraft.com/ajax.php?s=minecraft&f=players-online-avatars&preset_id=18527811&server=combined&format=json?callback=?";
 	url = 'http://query.yahooapis.com/v1/public/yql?q=' + encodeURIComponent('select * from html where url="' + url + '"') + '&format=xml';
-	var textt;
-	var t = $.ajax({
+
+  function ajaxGetNames(){
+  initializeCities();
+  $.ajax({
 	dataType: "text",
 	url: url,
 	success: function(text){
@@ -103,21 +294,38 @@ var data = {
 			for (index = 0; index < names.children().length; index++){
 				nameImage = names.children()[index].innerHTML;
 				nameString = nameImage.split('/')[4];
-				nameImage = nameImage.replace('alt', 'title="' + nameString+'"');
+				nameImage = nameImage.replace('alt=""', 'title=' + nameString);
 				
 				//we check
 				if (cities.hasOwnProperty(nameString)){
-					divString = "#" + cities[nameString]
-					$(divString).append(nameImage);
-					$(divString).show();
+					 var city = "#" + cities[nameString];
+
+          //AWFULLY inefficient way to do it
+					// $(divString).html( cities[nameString] + ' Gym :' + nameImage);
+           var cityInfo=nameImage; 
+
+           // if ($(city).html().indexOf(nameString) == -1){
+            $(city).append(cityInfo);
+           // }
+
+           //if someone signed off, 
+
+					$(city).show();
 				}
+
 				
 			}
-			textt = names;
+      console.log('performed');
 		}
 	});
+};
+ajaxGetNames();
+
+  var interval = 1000 * 60 * 5; //5 minutes
+  setInterval(ajaxGetNames, interval);
 
 	function initializeCities(){
+    $("#wrapper").html("");
 		cities = new Object();
 		for (regionName in data.regions){
 
