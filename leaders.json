@@ -10,6 +10,7 @@
                             "mortalcombat23"
                         ],
                         "format": "3v3",
+                        "type": "rock",
                         "levelCap": "33"
                     }
                 },
@@ -22,6 +23,7 @@
                             "manbooo"
                         ],
                         "format": "6v6",
+                        "type": "water",
                         "levelCap": "36"
                     }
                 },
@@ -31,8 +33,9 @@
                             "DarkraiSnivy",
                             "callumlfc10"
                         ],
-                        "format": "3v3",
-                        "levelCap": "33"
+                        "format": "4v4",
+                        "type": "electric",
+                        "levelCap": "40"
                     }
                 },
                 {
@@ -42,8 +45,9 @@
                             "Im_NooBly",
                             "kourosh2"
                         ],
-                        "format": "3v3",
-                        "levelCap": "33"
+                        "format": "4v4",
+                        "type": "grass",
+                        "levelCap": "43"
                     }
                 },
                 {
@@ -52,8 +56,9 @@
                             "CaptinMcPiggie",
                             "GoatSwag0723"
                         ],
-                        "format": "3v3",
-                        "levelCap": "33"
+                        "format": "6v6",
+                        "type": "poison",
+                        "levelCap": "46"
                     }
                 },
                 {
@@ -62,8 +67,9 @@
                             "MCLikeANinja",
                             "Secretlaser627"
                         ],
-                        "format": "3v3",
-                        "levelCap": "33"
+                        "format": "6v6",
+                        "type": "psychic",
+                        "levelCap": "49"
                     }
                 },
                 {
@@ -73,8 +79,9 @@
                             "96mudkip",
                             "BEijke"
                         ],
-                        "format": "3v3",
-                        "levelCap": "33"
+                        "format": "6v6",
+                        "type": "fire",
+                        "levelCap": "52"
                     }
                 },
                 {
@@ -82,8 +89,9 @@
                         "leaders": [
                             "creeperkiller"
                         ],
-                        "format": "3v3",
-                        "levelCap": "33"
+                        "format": "6v6",
+                        "type": "ground",
+                        "levelCap": "55"
                     }
                 }
             ]
@@ -99,6 +107,7 @@
                             "CrassKal"
                         ],
                         "format": "3v3",
+                        "type": "flying",
                         "levelCap": "33"
                     }
                 },
@@ -110,7 +119,8 @@
                             "_JustNiek"
                         ],
                         "format": "3v3",
-                        "levelCap": "33"
+                        "type": "bug",
+                        "levelCap": "36"
                     }
                 },
                 {
@@ -118,8 +128,9 @@
                         "leaders": [
                             "DJ_M83rt0"
                         ],
-                        "format": "3v3",
-                        "levelCap": "33"
+                        "format": "6v6",
+                        "type": "normal",
+                        "levelCap": "40"
                     }
                 },
                 {
@@ -130,7 +141,8 @@
                             "Ghostlord_Bas012"
                         ],
                         "format": "3v3",
-                        "levelCap": "33"
+                        "type": "ghost",
+                        "levelCap": "45"
                     }
                 },
                 {
@@ -138,8 +150,9 @@
                         "leaders": [
                             "Ghostlord_Tim"
                         ],
-                        "format": "3v3",
-                        "levelCap": "33"
+                        "format": "6v6",
+                        "type": "fighting",
+                        "levelCap": "50"
                     }
                 },
                 {
@@ -148,8 +161,9 @@
                             "Jordan",
                             "KCCreeper"
                         ],
-                        "format": "3v3",
-                        "levelCap": "33"
+                        "format": "6v6",
+                        "type": "steel",
+                        "levelCap": "55"
                     }
                 },
                 {
@@ -158,8 +172,9 @@
                             "iKrampus",
                             "mortalcombat23"
                         ],
-                        "format": "3v3",
-                        "levelCap": "33"
+                        "format": "6v6",
+                        "type": "ice",
+                        "levelCap": "60"
                     }
                 },
                 {
@@ -169,8 +184,9 @@
                             "jessejtj",
                             "haloman977"
                         ],
-                        "format": "3v3",
-                        "levelCap": "33"
+                        "format": "4v4",
+                        "type": "dragon",
+                        "levelCap": "65"
                     }
                 }
             ]
@@ -186,7 +202,8 @@
                             "NothingPro"
                         ],
                         "format": "3v3",
-                        "levelCap": "33"
+                        "type": "rock",
+                        "levelCap": "30"
                     }
                 },
                 {
@@ -196,7 +213,8 @@
                             "wayloresie"
                         ],
                         "format": "3v3",
-                        "levelCap": "33"
+                        "type": "fighting",
+                        "levelCap": "36"
                     }
                 },
                 {
@@ -208,7 +226,8 @@
                             "fro425"
                         ],
                         "format": "3v3",
-                        "levelCap": "33"
+                        "type": "electric",
+                        "levelCap": "40"
                     }
                 },
                 {
@@ -219,8 +238,9 @@
                             "HoppingFox",
                             "Jordan"
                         ],
-                        "format": "3v3",
-                        "levelCap": "33"
+                        "format": "4v4",
+                        "type": "fire",
+                        "levelCap": "45"
                     }
                 },
                 {
@@ -229,8 +249,9 @@
                             "Noahbuddy78",
                             "SonicBoomVx"
                         ],
-                        "format": "3v3",
-                        "levelCap": "33"
+                        "format": "6v6",
+                        "type": "normal",
+                        "levelCap": "50"
                     }
                 },
                 {
@@ -239,8 +260,9 @@
                             "megafire13",
                             "Connorpottermore"
                         ],
-                        "format": "3v3",
-                        "levelCap": "33"
+                        "format": "6v6",
+                        "type": "flying",
+                        "levelCap": "55"
                     }
                 },
                 {
@@ -249,8 +271,9 @@
                             "Mjcaboose18",
                             "Jordan"
                         ],
-                        "format": "3v3",
-                        "levelCap": "33"
+                        "format": "6v6",
+                        "type": "psychic",
+                        "levelCap": "60"
                     }
                 },
                 {
@@ -258,8 +281,9 @@
                         "leaders": [
                             "Friskeest"
                         ],
-                        "format": "3v3",
-                        "levelCap": "33"
+                        "format": "6v6",
+                        "type": "water",
+                        "levelCap": "65"
                     }
                 }
             ]
