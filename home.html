@@ -1,36 +1,30 @@
 <html lang="en">
-  <head>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="home.js"></script>
-   <link href="bootstrap.min.css" rel="stylesheet">
-   <link href="home.css" rel="stylesheet">
-    </head>
+<head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="home.js"></script>
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <link href="home.css" rel="stylesheet">
+</head>
 
-  <body>
-
-   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">Home</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="jumbotron">
-      <div class="container">
-        <h2>Gym Leader Status on EvolveCraft</h2>
-      </div>
-    </div>
-
+<body>
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
-      <div class="row" id="wrapper">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Evolvecraft</a>
+        <a class="navbar-brand" href="#">Gym Leader Status</a>
       </div>
     </div>
+  </div>
 
-    <script>
-    start('leaders.json', "#wrapper", "col-md-4 btn-group-vertical", "Gym Leaders","btn btn-default");
-    </script>
+  <div class="container">
+    <div class="row" id="wrapper">
+    </div>
+  </div>
 
- 
-  </body>
+  <script>
+    start('leaders.json', "#wrapper", "col-md-4 btn-group-vertical", " Gym Leaders","btn btn-default");
+  </script>
+
+  
+</body>
 </html>
